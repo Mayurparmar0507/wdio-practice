@@ -12,4 +12,8 @@ module.exports = class Page {
     open (path) {
         return browser.url(`https://the-internet.herokuapp.com/${path}`)
     }
-}
+//    google (){
+//    	return browser.url(`https://www.google'.com`);
+//    }
+    }
+
